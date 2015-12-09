@@ -1,0 +1,81 @@
+include ./lib/header.jade
+    script.
+        !(function() {
+            var rem;
+            rem = function() {
+                document.documentElement.style.fontSize = (document.documentElement.clientWidth || document.documentElement.clientWidth) + 'px';
+            };
+            rem();
+            window.addEventListener('resize', rem, false);
+            var _hmt = _hmt || []
+        })();
+
+    link(href="/static/css/index.css",rel="stylesheet",type="text/css")
+    body
+        audio#audio(src="/static/image/background.mp3",loop="loop")
+        div.share=""
+        section.swiper-container
+            section.swiper-wrapper
+                section.swiper-slide(class="page page1")
+                    div.background=""
+                    div.music.music-play=""
+                    div.nav=""
+                    div.font-title=""
+                    div.subtitle=""
+                    div.up=""
+                    div.light=""
+                    div.bottom=""
+                section.swiper-slide(class="page page2")
+                    div.background=""
+                    div.music.music-play=""
+                    div.nav=""
+                    div.title=""
+                    div.go-answer=""
+                    div.bottom=""
+                    div.up=""
+        section.question
+            div.nav=""
+            div.bottom
+                div.title=""
+                div.answer1=""
+                div.answer2=""
+                div.answer3=""
+        section.result1
+            div.nav=""
+            div.title=""
+            div.dialog=""
+            div.ticket-btn=""
+            img.qrcode(src="/static/image/qrcode.jpg")
+            div.bottom=""
+        section.result2=""
+            div.nav=""
+            div.title=""
+            div.dialog=""
+            div.ticket-btn=""
+            div.man=""
+            img.qrcode(src="/static/image/qrcode.jpg")
+            div.bottom=""
+        section.result3=""
+            div.nav=""
+            div.title=""
+            div.dialog=""
+            div.ticket-btn=""
+            div.lover=""
+            img.qrcode(src="/static/image/qrcode.jpg")
+            div.h1=""
+            div.h2=""
+            div.h3=""
+            div.h4=""
+            div.h5=""
+            div.h6=""
+            div.bottom=""
+    script(language="javascript",src="/static/js/index.min.js")
+    script(language="javascript",src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js")
+    script.
+        var _hmt = _hmt || [];
+        (function() {
+              var hm = document.createElement("script");
+              hm.src = "//hm.baidu.com/hm.js?4c441feac486a1b850215082f32d93e2";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+        })();
