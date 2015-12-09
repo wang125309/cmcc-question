@@ -7,8 +7,8 @@ $(function(){
             shareJson = {
                 link:"http://cm.qingdianer.com",
                 imgUrl:"http://cm.qingdianer.com/static/image/share.jpg",
-                title:"一字千金",
-                desc:"中国移动车联网活动来啦~"
+                title:"你的脑洞够不够开？",
+                desc:"中国移动车联网征名活动邀你一起大猜想~"
 
             };
 			wx.onMenuShareTimeline(shareJson);
