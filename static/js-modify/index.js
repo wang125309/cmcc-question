@@ -39,14 +39,15 @@ window.onload = function(){
         ans = 8 - per;
         $(".question").velocity("fadeOut");
         if(ans <= 3) {
-            $(".result1").velocity("fadeIn");
+            $(".result3").velocity("fadeIn");
+            $(".result3 .dialog").velocity("fadeIn");
         }
         else if(per>3&&per<=6) {
             $(".result2").velocity("fadeIn");
             $(".result2 .dialog").velocity("fadeIn");
         }
         else {
-            $(".result3").velocity("fadeIn");
+            $(".result1").velocity("fadeIn");
         }
     };
     $(".ticket-btn").on("tap",function(){
