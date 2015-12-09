@@ -1831,7 +1831,7 @@ window.onload = function(){
         }
     };
     $(".ticket-btn").on("tap",function(){
-        location.href = "http://mp.weixin.qq.com/s?__biz=MzA3NTc2NjQ4OQ==&mid=401484271&idx=1&sn=8831b22fcd6797ba0d9fddb79f27236b&scene=0#wechat_redirect"; 
+        location.href = 'http://mp.weixin.qq.com/s?__biz=MzA3NTc2NjQ4OQ==&mid=401510081&idx=1&sn=6a8e2a0ab73e99c1203d60b066c5a9ef&scene=0#wechat_redirect';
     });
     var bindAns = function(i) {
         $(".answer"+i).on("tap",function(){
