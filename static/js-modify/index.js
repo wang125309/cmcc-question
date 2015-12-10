@@ -42,7 +42,7 @@ window.onload = function(){
             $(".result3").velocity("fadeIn");
             $(".result3 .dialog").velocity("fadeIn");
         }
-        else if(per>3&&per<=6) {
+        else if(ans>3&&ans<=6) {
             $(".result2").velocity("fadeIn");
             $(".result2 .dialog").velocity("fadeIn");
         }
